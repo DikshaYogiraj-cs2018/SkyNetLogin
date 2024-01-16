@@ -6,7 +6,6 @@ If the username and password exist then you will get a message that the user wit
 The database will not save the passwords of users it will hash them and store them. <br>
 Thus preventing any kind of malicious and unauthorised access to the user's details.<br>
 The user will go to the Welcome Page as soon as the user logs into the site.<br>
-
 Technologies Used: Html, CSS, Bootstrap 4, Mysql, Php.<br>
   <table>
   <tr>
