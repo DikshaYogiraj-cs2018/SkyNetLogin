@@ -7,7 +7,7 @@ else{
 }
 echo'
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/Loginsys">Sky Net Secure System</a>
+  <a class="navbar-brand" href="/foldername">Sky Net Secure System</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -19,15 +19,15 @@ echo'
       </li>';
       if(!$loggedin){
       echo'<li class="nav-item">
-        <a class="nav-link" href="/Loginsys/login.php">Login</a>
+        <a class="nav-link" href="/foldername/login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/Loginsys/signup.php">Sign up</a>
+        <a class="nav-link" href="/foldername/signup.php">Sign up</a>
       </li>';
       }
       if($loggedin){
       echo'<li class="nav-item">
-        <a class="nav-link" href="/Loginsys/logout.php">Log out</a>
+        <a class="nav-link" href="/foldername/logout.php">Log out</a>
       </li>';
       }
 
