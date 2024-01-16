@@ -25,16 +25,15 @@
    
      <div class="container">
 	    <div class="d-flex justify-content-center h-100">
-      
-		    <div class="card-body" style="max-width: 45rem;">
-            <div class="alert alert-success" role="alert">
-            <h4 class="alert-heading">Welcome - <?php echo $_SESSION['username'];?></h4>
-            <p class="card-text" >Hey You are logged in. Welcome to Sky Net Secure System. <?php echo $_SESSION['username'];?> </p>
-          <hr>
-            <p class="card-text" >Whenever you need to logout <a href="/Loginsys/logout.php">Use this Link.</a></p>
+		<div class="card-body" style="max-width: 45rem;">
+            		<div class="alert alert-success" role="alert">
+            		<h4 class="alert-heading">Welcome - <?php echo $_SESSION['username'];?></h4>
+            		<p class="card-text" >Hey You are logged in. Welcome to Sky Net Secure System. <?php echo $_SESSION['username'];?> </p>
+          		<hr>
+            		<p class="card-text" >Whenever you need to logout <a href="/Loginsys/logout.php">Use this Link.</a></p>
 			</div>
-  </div>
-  </div>
+  		</div>
+  	</div>
   </div>
  
     <!-- Optional JavaScript; choose one of the two! -->
