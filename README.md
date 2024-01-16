@@ -11,7 +11,10 @@ Technologies Used: Html, CSS, Bootstrap 4, Mysql, Php.<br>
   <table>
   <tr>
     <td><img src="pics/signup.png" align="center" height=200></td>
+    <tr>
      <td> <img src="pics/login.png" align="center" height=200></td>
+      </tr>
+    <tr>
      <td> <img src="pics/welcome.png" align="center" height=200></td>
   </tr>
 </big>
