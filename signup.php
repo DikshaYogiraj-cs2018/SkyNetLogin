@@ -8,13 +8,13 @@
         $password=$_POST["password"];
         $cpassword=$_POST["cpassword"];
 
-        //$exists=false;
+        
         //check whether this username Exists
         $existSql="SELECT * from `users` where username='$username'";
         $result=mysqli_query($conn,$existSql);
         $numExistRows=mysqli_num_rows($result);
         if($numExistRows > 0){
-            //$exists=true;
+          
             $showError="Username already exists";
         }
         else{
