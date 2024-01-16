@@ -10,8 +10,11 @@ The user will go to the Welcome Page as soon as the user logs into the site.<br>
 Technologies Used: Html, CSS, Bootstrap 4, Mysql, Php.<br>
   <table>
   <tr>
-    <td><img src="pics/signup.png" align="center" height=300></td>
-     <td> <img src="pics/login.png" align="center" height=300></td>
-     <td> <img src="pics/welcome.png" align="center" height=300></td>
+    <td><img src="pics/signup.png" align="center" height=400></td>
+     <td> <img src="pics/login.png" align="center" height=400></td>
+    </tr>
+    <tr>
+      <td><img src="pics/welcome.png" align="center" height=400></td>
+      <td></td>
   </tr>
 </big>
